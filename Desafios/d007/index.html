@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: darkgray;
+            height: 100px;
+            margin: auto;
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        main {
+            background-color: #a9a9a970;
+            margin: auto;
+            min-width: 300px;
+            max-width: 1500px;
+            padding: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        main p {
+            padding-bottom: 20px;
+            text-align: center;
+
+        }
+
+        footer {
+            background-color: darkgray;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        footer:hover {
+            color: rgb(75, 72, 72);
+            background-color: #a9a9a970;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Imagem Flexível</h1>
+    </header>
+    <main>
+        <p>Voçê está vendo a imagem completa? <br> Experimenta ampliar o tamanho da sua janela para aproveitar a melhor experiência 🤯</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png">
+            <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.png">
+            <img src="imagens/paisagem-g.png" alt="Imagem Grande">
+        </picture>
+    </main>
+
+    <footer>
+        <p>Made by Abigal Skull</p>
+    </footer>
+</body>
+</html>
