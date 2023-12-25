@@ -60,17 +60,17 @@ header > p {
     font-family: var(--fonte-padrão);
     font-size: 1.2em;
     max-width: 600px;
-    padding-right: 10px;
     padding-left: 10px;
-    padding-bottom: 30px;
+    padding-right: 10px;
     margin: auto;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
-    margin-bottom: 20px;
+    padding-bottom: 30px;
     font-size: 3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     
